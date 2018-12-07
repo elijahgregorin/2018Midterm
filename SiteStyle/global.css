@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS for Raptors Web Site */
+
+/* This rule will style the main page body */
+body {
+	background-color: #ECE5B6;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	margin: 0px;
+	padding: 0px;
+	}
+li {
+	list-style-type: circle;
+}
+#footer {
+	clear:both;
+	float:middle;
+	position:absolute;
+	bottom:100px;
+	left:750px;
+	}
+#main-content {
+	float:right;
+	text-align:left;
+	position:absolute;
+	left:450px;
+	top: 250px;
+	
+}
+ul {
+	list-style-image: url('bullet.png');
+}	
+#sidebar {
+	padding:10;
+	color:black;
+	font-size:small;
+	cursor:pointer;
+	position:absolute;
+	left:15px;
+}
+a:link {
+	color:red;
+	underline:none;
+}
+a:visited {
+	color: red;
+	underline:none;
+}
+#photo {
+	float:middle;
+}
+#navigation {
+	position:absolute;
+	left:350px;
+	background-image: url("SiteStyle/sidebar.png");
+	background-repeat:repeat;
+
+}
+#sidebar2 {
+	background-image: url("sidebar2.png");
+	background-repeat:no-repeat;
+	clear:both;
+	position:absolute;
+	left:400px;
+	bottom:150px;
+}
+#photo {
+	background-repeat:no-repeat;
+}
+#navigation {
+	background-position:bottom-left;
+	float:left;
+	
+}
+#picture {
+	background-image: url('picture.png');
+	position:absolute;
+	top:580px;
+}
+#confederate {
+	background-image: url("confederate.png");
+	background-repeat:no-repeat;
+	position:absolute;
+	top:550px;
+}
+#union {
+	background-image: url("union.png");
+	background-repeat:no-repeat;
+	position:absolute;
+	top:575px;
+}
