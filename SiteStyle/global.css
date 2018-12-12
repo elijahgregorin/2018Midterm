@@ -89,3 +89,6 @@ a:visited {
 	position:absolute;
 	top:575px;
 }
+ol {
+	list-style-image: url(flag.png)
+} 
