@@ -79,7 +79,6 @@ a:visited {
 }
 #confederate {
 	background-image: url("confederate.png");
-	background-repeat:no-repeat;
 	position:absolute;
 	top:550px;
 }
