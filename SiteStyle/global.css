@@ -90,5 +90,5 @@ a:visited {
 	top:575px;
 }
 ol {
-	list-style-image: url(flag.png);
+	list-style-image: url('flag.png');
 } 
